@@ -1,0 +1,25 @@
+.button--primary,
+.button--secondary {
+	border-radius: 0;
+}
+
+.button--primary {
+	border: solid 1px $spanish-gray;
+	color: $spanish-gray;
+
+	&:hover {
+		border: solid 1px $black;
+		color: $black;		
+		background-color: $white;
+	}
+}
+
+.button--secondary {
+	border: solid 1px $shiny-shamrock;
+	background-color: $shiny-shamrock;
+
+	&:hover {
+		border: solid 1px $turquoise-green;
+		background-color: $turquoise-green;
+	}	
+}
